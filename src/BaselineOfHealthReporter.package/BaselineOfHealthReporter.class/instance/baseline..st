@@ -7,7 +7,8 @@ baseline: spec
 			baseline: 'Ring2' with: [
 				spec repository: 'github://pavel-krivanek/Ring2:healthReporter' ].
 		spec 
-			package: 'HealthReporter-Core';
+			package: 'HealthReporter-Core'	
+				with: [ spec requires: #(#'Ring2' ). ];
 			package: 'HealthReporter-Tests'.
 
 		spec group: 'core' with: #('HealthReporter-Core').

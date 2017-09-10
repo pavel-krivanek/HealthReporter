@@ -5,7 +5,7 @@ baseline: spec
 	spec for: #common do: [
 		spec 
 			baseline: 'Ring2' with: [
-				spec repository: 'github://pavel-krivanek/Ring2' ].
+				spec repository: 'github://pavel-krivanek/Ring2:healthReporter/src' ].
 		spec 
 			package: 'HealthReporter-Core'	
 				with: [ spec requires: #(#'Ring2' ). ];

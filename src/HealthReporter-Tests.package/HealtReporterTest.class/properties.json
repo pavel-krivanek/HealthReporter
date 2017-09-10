@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ClassTestCase",
+	"category" : "HealthReporter-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "HealtReporterTest",
+	"type" : "normal"
+}

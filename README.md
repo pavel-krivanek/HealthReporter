@@ -1,2 +1,2 @@
 # HealthReporter
-simple tool to report health status of a Pharo image
+The HealthReporter is a simple tool to export information about a Ring environment in the STON format and then to compare them and provide a readable report.

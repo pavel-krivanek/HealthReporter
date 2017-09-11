@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"environment"
+	],
 	"name" : "HealthReporter",
 	"type" : "normal"
 }
